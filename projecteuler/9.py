@@ -1,0 +1,1 @@
+[print(int(a*b*((a*a+b*b)**.5))) for a in range(1000) for b in range(1000) if a<b and a+b+((a*a+b*b)**.5) == 1000]
